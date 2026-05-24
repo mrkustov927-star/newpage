@@ -12,23 +12,26 @@
     <nav class="nav">
       <a href="index.html">Главная</a>
       <a href="modules.html">Разделы</a>
+      <a href="tasks.html">Задания</a>
       <a href="planner.html">План</a>
       <a href="trainer.html">Тренажер</a>
+      <a href="knowledge.html">База</a>
+      <a href="team.html">Команда</a>
       <a href="score.html" aria-current="page">Самопроверка</a>
     </nav>
   </header>
   <main class="page">
     <section class="page-title">
-      <p class="eyebrow">Готовность</p>
-      <h1>Командный чек-лист</h1>
-      <p>Отметьте, что уже отработано. Сайт покажет общий процент готовности.</p>
+      <p class="eyebrow">Контроль</p>
+      <h1>Чек-лист готовности</h1>
+      <p>Отметьте, что команда уже закрыла. Процент обновляется автоматически.</p>
     </section>
     <section class="score-layout">
-      <div class="score-meter">
+      <aside class="score-meter">
         <strong id="scoreValue">0%</strong>
-        <span id="scoreLabel">Начинаем сборку команды</span>
-      </div>
-      <div class="checklist" id="checklist"></div>
+        <span id="scoreLabel">Начните проверку</span>
+      </aside>
+      <section class="checklist" id="checklist"></section>
     </section>
   </main>
   <script src="app.js"></script>
