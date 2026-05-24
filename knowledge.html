@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>База знаний - Зарница 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Зарница 2.0</a>
+    <nav class="nav">
+      <a href="index.html">Главная</a><a href="modules.html">Разделы</a><a href="planner.html">План</a><a href="trainer.html">Тренажер</a><a href="knowledge.html" aria-current="page">База</a><a href="team.html">Команда</a><a href="score.html">Самопроверка</a>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="page-title"><p class="eyebrow">Справочник</p><h1>База знаний команды</h1><p>Короткие памятки по темам, которые чаще всего дают штрафы или теряют время на этапе.</p></section>
+    <section class="search-panel"><input id="knowledgeSearch" type="search" placeholder="Найти: медицина, Морзе, штраф, РХБЗ..."></section>
+    <section class="knowledge-grid" id="knowledgeGrid">
+      <article data-tags="медицина красная зона эвакуация"><h2>Тактическая медицина</h2><ul><li>В красной зоне главное - безопасность и эвакуация.</li><li>В желтой зоне - повязка, стропа, контроль состояния.</li><li>В зеленой зоне - контрольный осмотр и утепление.</li></ul></article>
+      <article data-tags="связь морзе сообщение"><h2>Связь и Морзе</h2><ul><li>Передача идет ровным темпом.</li><li>После приема обязателен контроль текста.</li><li>Ошибки фиксируются сразу, не угадываются.</li></ul></article>
+      <article data-tags="сапер мины проход штраф"><h2>Инженерная подготовка</h2><ul><li>Обнаружил - обозначил - продолжил безопасный проход.</li><li>Нельзя наступать на мину или задевать растяжку.</li><li>Границы прохода должны быть понятны судье.</li></ul></article>
+      <article data-tags="огневая штурм безопасность"><h2>Огневая безопасность</h2><ul><li>Палец вне спускового крючка до команды.</li><li>Ствол только в безопасном направлении.</li><li>Сектор и синхронность важнее суеты.</li></ul></article>
+      <article data-tags="военкор публикация пост"><h2>Военкор</h2><ul><li>Громкий заголовок, короткое вступление, основной ответ.</li><li>Нужны визуализация и связь с темой.</li><li>Хэштеги - не больше 3-4, текст без ошибок.</li></ul></article>
+      <article data-tags="выживание рюкзак укрытие вода"><h2>Выживание</h2><ul><li>Проверить воду, тепло, укрытие, сигнал.</li><li>Команда движется вместе, не распадается.</li><li>Командир держит маршрут и точки сбора.</li></ul></article>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
