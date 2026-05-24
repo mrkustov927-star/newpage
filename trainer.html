@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тренажер - Зарница 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Зарница 2.0</a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="modules.html">Разделы</a>
+      <a href="planner.html">План</a>
+      <a href="trainer.html" aria-current="page">Тренажер</a>
+      <a href="score.html">Самопроверка</a>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="page-title">
+      <p class="eyebrow">Повторение</p>
+      <h1>Мини-тренажер вопросов</h1>
+      <p>Выберите тему, откройте ответ, переходите к следующей карточке.</p>
+    </section>
+    <section class="trainer">
+      <div class="trainer-controls">
+        <select id="topicSelect" aria-label="Тема тренировки"></select>
+        <button class="button" id="nextCard">Следующая</button>
+      </div>
+      <article class="flashcard">
+        <p class="eyebrow" id="cardTopic">Тема</p>
+        <h2 id="cardQuestion">Вопрос</h2>
+        <button class="button primary" id="showAnswer">Показать ответ</button>
+        <p class="answer" id="cardAnswer"></p>
+      </article>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
