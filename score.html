@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Самопроверка - Зарница 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Зарница 2.0</a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="modules.html">Разделы</a>
+      <a href="planner.html">План</a>
+      <a href="trainer.html">Тренажер</a>
+      <a href="score.html" aria-current="page">Самопроверка</a>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="page-title">
+      <p class="eyebrow">Готовность</p>
+      <h1>Командный чек-лист</h1>
+      <p>Отметьте, что уже отработано. Сайт покажет общий процент готовности.</p>
+    </section>
+    <section class="score-layout">
+      <div class="score-meter">
+        <strong id="scoreValue">0%</strong>
+        <span id="scoreLabel">Начинаем сборку команды</span>
+      </div>
+      <div class="checklist" id="checklist"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
