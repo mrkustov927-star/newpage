@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Задания для подготовки - Зарница 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Зарница 2.0</a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="modules.html">Разделы</a>
+      <a href="tasks.html" aria-current="page">Задания</a>
+      <a href="planner.html">План</a>
+      <a href="trainer.html">Тренажер</a>
+      <a href="knowledge.html">База</a>
+      <a href="team.html">Команда</a>
+      <a href="score.html">Самопроверка</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-title">
+      <p class="eyebrow">Практика</p>
+      <h1>Задания для команды и участников</h1>
+      <p>Тренировочные карточки собраны по направлениям положения: командные испытания, ролевые состязания и индивидуальная подготовка. Отмечайте готовность после выполнения.</p>
+    </section>
+
+    <section class="task-dashboard">
+      <article>
+        <strong id="taskDone">0</strong>
+        <span>заданий закрыто</span>
+      </article>
+      <article>
+        <strong id="taskTotal">0</strong>
+        <span>всего в подборке</span>
+      </article>
+      <article>
+        <strong id="taskFocus">-</strong>
+        <span>следующий фокус</span>
+      </article>
+    </section>
+
+    <section class="module-tools">
+      <button class="pill active" data-task-filter="all">Все</button>
+      <button class="pill" data-task-filter="team">Командные</button>
+      <button class="pill" data-task-filter="role">По ролям</button>
+      <button class="pill" data-task-filter="solo">Индивидуальные</button>
+    </section>
+
+    <section class="task-grid" id="taskGrid"></section>
+
+    <section class="callout">
+      <h2>Как проводить тренировку</h2>
+      <p>На каждое задание ставьте таймер, фиксируйте штрафы и завершайте коротким разбором: что сделали правильно, где потеряли время, что повторить персонально.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
