@@ -34,11 +34,11 @@
         <span>заданий закрыто</span>
       </article>
       <article>
-        <strong id="taskTotal">0</strong>
+        <strong id="taskTotal">12</strong>
         <span>всего в подборке</span>
       </article>
       <article>
-        <strong id="taskFocus">-</strong>
+        <strong id="taskFocus">Военизированная эстафета</strong>
         <span>следующий фокус</span>
       </article>
     </section>
@@ -50,7 +50,104 @@
       <button class="pill" data-task-filter="solo">Индивидуальные</button>
     </section>
 
-    <section class="task-grid" id="taskGrid"></section>
+    <section class="task-grid" id="taskGrid">
+      <article class="task-card team" data-task-type="team">
+        <div class="task-head"><span>Командное</span><b>25-35 минут</b></div>
+        <h2>Военизированная эстафета</h2>
+        <h3>Команда</h3><p>Собрать цепочку этапов, назначить порядок выхода, провести один спокойный и один скоростной прогон.</p>
+        <h3>Участник</h3><p>Каждый участник отрабатывает свой участок без подсказок и называет возможные штрафы.</p>
+        <h3>Зачет</h3><ul><li>передача этапа без паузы</li><li>без нарушения безопасности</li><li>командир видит весь порядок действий</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="0"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card role" data-task-type="role">
+        <div class="task-head"><span>Роль</span><b>15 минут</b></div>
+        <h2>Связисты</h2>
+        <h3>Команда</h3><p>Пара передает короткий доклад: место, событие, количество участников, просьба о действии.</p>
+        <h3>Участник</h3><p>Один участник кодирует сообщение, второй принимает и сверяет по контрольной фразе.</p>
+        <h3>Зачет</h3><ul><li>сообщение принято без искажения</li><li>темп стабильный</li><li>есть подтверждение приема</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="1"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card role" data-task-type="role">
+        <div class="task-head"><span>Роль</span><b>20 минут</b></div>
+        <h2>Инженеры-саперы</h2>
+        <h3>Команда</h3><p>Разметить условный опасный участок, провести группу через безопасный коридор.</p>
+        <h3>Участник</h3><p>Сапер вслух проговаривает алгоритм: обнаружить, обозначить, обойти, доложить.</p>
+        <h3>Зачет</h3><ul><li>нет касания опасной зоны</li><li>границы понятны команде</li><li>командир получил доклад</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="2"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card role" data-task-type="role">
+        <div class="task-head"><span>Роль</span><b>20 минут</b></div>
+        <h2>Медики</h2>
+        <h3>Команда</h3><p>Отработать помощь пострадавшему: безопасность, контакт, остановка кровотечения, эвакуация.</p>
+        <h3>Участник</h3><p>Медик выбирает повязку, накладывает ее и объясняет контроль состояния пострадавшего.</p>
+        <h3>Зачет</h3><ul><li>помощь начата с безопасности</li><li>повязка держится</li><li>эвакуация выполнена согласованно</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="3"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card role" data-task-type="role">
+        <div class="task-head"><span>Роль</span><b>25 минут</b></div>
+        <h2>Военкоры</h2>
+        <h3>Команда</h3><p>Подготовить короткий материал о тренировке команды: факт, эмоция, результат, вывод.</p>
+        <h3>Участник</h3><p>Военкор пишет заголовок, лид, 5-7 предложений текста и подбирает кадры для публикации.</p>
+        <h3>Зачет</h3><ul><li>есть структура</li><li>нет фактических ошибок</li><li>материал показывает команду и задачу</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="4"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card role" data-task-type="role">
+        <div class="task-head"><span>Роль</span><b>20 минут</b></div>
+        <h2>Операторы БПА</h2>
+        <h3>Команда</h3><p>Смоделировать маршрут наблюдения: пилот, наблюдатель и аналитик ведут общий доклад.</p>
+        <h3>Участник</h3><p>Участник описывает цель по схеме: где, что, направление, риск, действие команды.</p>
+        <h3>Зачет</h3><ul><li>доклад краткий</li><li>цель описана точно</li><li>роли не мешают друг другу</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="5"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card solo" data-task-type="solo">
+        <div class="task-head"><span>Индивидуально</span><b>15 минут</b></div>
+        <h2>Огневая подготовка</h2>
+        <h3>Команда</h3><p>Перед стартом вся команда повторяет правила безопасности и порядок действий.</p>
+        <h3>Участник</h3><p>Участник показывает безопасную стойку, направление ствола, палец вне спуска, доклад о готовности.</p>
+        <h3>Зачет</h3><ul><li>безопасное направление</li><li>действие только по команде</li><li>уверенный доклад</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="6"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card solo" data-task-type="solo">
+        <div class="task-head"><span>Индивидуально</span><b>15 минут</b></div>
+        <h2>РХБЗ</h2>
+        <h3>Команда</h3><p>Команда реагирует на условный сигнал опасности и выстраивает порядок защиты.</p>
+        <h3>Участник</h3><p>Участник называет сигнал, средство защиты, первое действие и доклад командиру.</p>
+        <h3>Зачет</h3><ul><li>сигнал распознан</li><li>порядок действий не перепутан</li><li>доклад короткий</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="7"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card solo" data-task-type="solo">
+        <div class="task-head"><span>Индивидуально</span><b>20 минут</b></div>
+        <h2>Выживание</h2>
+        <h3>Команда</h3><p>Собрать решение для ситуации: потеря ориентира, холод, ограниченная вода, ожидание помощи.</p>
+        <h3>Участник</h3><p>Участник выбирает три приоритета и объясняет, почему они важнее остальных.</p>
+        <h3>Зачет</h3><ul><li>сначала безопасность</li><li>есть вода, тепло и сигнал</li><li>нет одиночного ухода от группы</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="8"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card team" data-task-type="team">
+        <div class="task-head"><span>Командное</span><b>30 минут</b></div>
+        <h2>Тактическая игра</h2>
+        <h3>Команда</h3><p>Командир ставит задачу, группа распределяет роли, проходит маршрут и собирается в контрольной точке.</p>
+        <h3>Участник</h3><p>Каждый участник повторяет свою задачу, соседей по группе и запасную точку сбора.</p>
+        <h3>Зачет</h3><ul><li>каждый знает задачу</li><li>связь сохраняется</li><li>группа не распадается</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="9"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card team" data-task-type="team">
+        <div class="task-head"><span>Командное</span><b>20 минут</b></div>
+        <h2>Военно-политическая подготовка</h2>
+        <h3>Команда</h3><p>Провести блиц-турнир: термины, символы, даты, герои, история движения.</p>
+        <h3>Участник</h3><p>Каждый готовит 5 карточек вопрос-ответ и задает их другому участнику.</p>
+        <h3>Зачет</h3><ul><li>ответы без подсказок</li><li>формулировки точные</li><li>ошибки внесены в повторение</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="10"> Выполнено на тренировке</label>
+      </article>
+      <article class="task-card solo" data-task-type="solo">
+        <div class="task-head"><span>Индивидуально</span><b>15 минут</b></div>
+        <h2>Силовая выносливость</h2>
+        <h3>Команда</h3><p>Провести круговую тренировку с учетом чистоты техники и восстановления.</p>
+        <h3>Участник</h3><p>Участник выполняет подход, напарник считает только правильные повторения.</p>
+        <h3>Зачет</h3><ul><li>техника не ломается</li><li>счет честный</li><li>темп ровный</li></ul>
+        <label class="task-check"><input type="checkbox" data-task="11"> Выполнено на тренировке</label>
+      </article>
+    </section>
 
     <section class="callout">
       <h2>Как проводить тренировку</h2>
@@ -58,6 +155,6 @@
     </section>
   </main>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20260525-tasks"></script>
 </body>
 </html>
